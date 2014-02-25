@@ -1,0 +1,377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Reposter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-18 11:03+0300\n"
+"PO-Revision-Date: 2013-12-18 11:04+0300\n"
+"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
+"Language-Team: bestwebsoft <info@bestwebsoft.com>\n"
+"Language: russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n%10==1 && n%100!=11) ? 3 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: single.php:32
+#: archive.php:59
+#: search.php:38
+#: index.php:42
+msgid "Posted on"
+msgstr "Опубликовано"
+
+#: single.php:38
+#: archive.php:65
+#: search.php:44
+#: index.php:48
+msgid "in"
+msgstr "в"
+
+#: single.php:39
+#: archive.php:66
+#: search.php:45
+#: index.php:49
+msgid " author: "
+msgstr " автор: "
+
+#: single.php:40
+#: archive.php:67
+#: search.php:46
+#: index.php:50
+msgid "| Edit"
+msgstr "| Редактировать"
+
+#: single.php:46
+msgid "&larr; Previous"
+msgstr "Назад"
+
+#: single.php:46
+msgid "Next &rarr;"
+msgstr "Вперед"
+
+#: single.php:65
+#: archive.php:84
+#: page.php:51
+#: search.php:60
+#: index.php:66
+msgid "[Top]"
+msgstr "[Вверх]"
+
+#: searchform.php:3
+msgid "Enter search keyword"
+msgstr "Введите поисковой запрос"
+
+#: searchform.php:4
+msgid "SEARCH"
+msgstr "ПОИСК"
+
+#: functions.php:43
+msgid "Sidebar"
+msgstr "Сайд бар"
+
+#: functions.php:68
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: functions.php:100
+#: functions.php:101
+msgid "Slide settings"
+msgstr "Настройки слайдов "
+
+#: functions.php:117
+msgid "Display this "
+msgstr "Отображать "
+
+#: functions.php:117
+msgid " in slider"
+msgstr " в слайдере"
+
+#: functions.php:118
+msgid "Use image by size 940x268. If your image size is bigger than 940x268, you need upload image again and WordPress will crop your image for needed size."
+msgstr "Используйте изображение размером 940х268. Если размер изображения больше, чем 940x268, то вам нужно загрузить изображение снова и оно будет обрезано до необходимого размера."
+
+#: functions.php:167
+msgid "You are here: "
+msgstr "Вы находитесь здесь: "
+
+#: functions.php:169
+#: functions.php:224
+msgid "Home"
+msgstr "Главная"
+
+#: functions.php:209
+#: search.php:28
+#: search.php:68
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: functions.php:213
+msgid "Author archives"
+msgstr "Архивы автора"
+
+#: functions.php:220
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: functions.php:235
+msgid "Pingback:"
+msgstr "Пингбэк: "
+
+#: functions.php:235
+#: functions.php:270
+msgid "Edit"
+msgstr "| Редактировать"
+
+#: functions.php:252
+#, php-format
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr "%1$s в  %2$s <span class=\"says\">сказал:</span>"
+
+#: functions.php:258
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: functions.php:266
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш коментарий ожидает проверки модератором"
+
+#: functions.php:272
+msgid "Reply <span>&darr;</span>"
+msgstr "Ответ <span>&darr;</span>"
+
+#: archive.php:31
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Архивы тегов: %s"
+
+#: archive.php:33
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Архивы автора: %s"
+
+#: archive.php:35
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Архивы Категорий: %s"
+
+#: archive.php:37
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Ежедневные архивы: <span>%s</span>"
+
+#: archive.php:39
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Архивы за месяц: <span>%s</span>"
+
+#: archive.php:41
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Ежегодные архивы: <span>%s</span>"
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Эта запись защищённая паролем. Введите пароль для просмотра комментариев."
+
+#: comments.php:23
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие коментарии"
+
+#: comments.php:24
+msgid "Newer Comments &rarr;"
+msgstr "Следующие коментарии &rarr;"
+
+#: comments.php:31
+msgid "Comments are closed."
+msgstr "Коментарии запрещены."
+
+#: page.php:45
+#: index.php:60
+msgid "Tags: "
+msgstr "Метки: "
+
+#: search.php:73
+msgid "Nothing was found for your request!"
+msgstr "Ничего не было найдено по вашему запросу!"
+
+#: sidebar.php:11
+msgid "Archives"
+msgstr "Архивы"
+
+#: 404.php:18
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: 404.php:19
+msgid "The page you have requested has flown the coop."
+msgstr "Запрошенная вами страница не найдена"
+
+#: 404.php:20
+msgid "Perhaps you are here because:"
+msgstr "Возможно вы оказались тут потому что:"
+
+#: 404.php:22
+msgid "The page has moved"
+msgstr "Страница была перемещена"
+
+#: 404.php:23
+msgid "The page no longer exists"
+msgstr "Страница не существует больше"
+
+#: 404.php:24
+msgid "You were looking for your puppy and got lost"
+msgstr "Возможно вы заблудились или ввели неверный URL"
+
+#: 404.php:25
+msgid "You like 404 pages"
+msgstr "Возмонжо вам нравится 404 страница"
+
+#: footer.php:15
+msgid " "
+msgstr ""
+
+#: footer.php:16
+msgid "Copyright"
+msgstr "Авторские права"
+
+#: footer.php:18
+msgid "Reposter theme"
+msgstr "Reposter тема"
+
+#~ msgid "Read more"
+#~ msgstr "Читать далее"
+
+#~ msgid "View all posts in %s"
+#~ msgstr "Просмотреть все посты в %s"
+
+#~ msgid "Sorry, nothing found."
+#~ msgstr "Извините, ничего не найдено"
+
+#~ msgid "Image"
+#~ msgstr "Изображение"
+
+#~ msgid "Download high resolution image"
+#~ msgstr "Скачать изображение в высоком качестве "
+
+#~ msgid " in"
+#~ msgstr "в"
+
+#~ msgid " by "
+#~ msgstr " по "
+
+#~ msgid " Edit"
+#~ msgstr " Редактировать"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Навигация коментариев"
+
+#~ msgid "Tags: %s"
+#~ msgstr "Метки: %s"
+
+#~ msgid "the BestWebSoft team"
+#~ msgstr "Команда BestWebSoft"
+
+#~ msgid "Search Results"
+#~ msgstr "Результаты поиска для:"
+
+#~ msgid "Reposter WordPress theme is licensed under the GPL."
+#~ msgstr "WordPress тема Reposter находится под лицензией GPL"
+
+#~ msgid "this description "
+#~ msgstr "это описание "
+
+#~ msgid "Powered by "
+#~ msgstr "Создано"
+
+#~ msgid "Mark this as slide, use image that size is 940x268"
+#~ msgstr "Пометить как слайд, используйте изображения размера 940x268"
+
+#~ msgid "Slide image"
+#~ msgstr "Изображение слайда"
+
+#, fuzzy
+#~ msgid "Mark this as slide"
+#~ msgstr "Пометить как слайд"
+
+#, fuzzy
+#~ msgid "Add slide section"
+#~ msgstr "Настройки слайдов"
+
+#~ msgid "Slide"
+#~ msgstr "Слайд"
+
+#~ msgid "Add New Slide"
+#~ msgstr "Добавить новый слайд"
+
+#~ msgid "Edit Slide"
+#~ msgstr "Редактировать слайд"
+
+#~ msgid "New Slide"
+#~ msgstr "Новый слайд"
+
+#~ msgid "View Slide"
+#~ msgstr "Обзор слайда"
+
+#~ msgid "Search Slides"
+#~ msgstr "Искать слайды"
+
+#~ msgid "Slides not found"
+#~ msgstr "Слайды не найдены"
+
+#~ msgid "In trash no slides"
+#~ msgstr "В корзине нет слайдов"
+
+#~ msgid "Welcome to our blog!"
+#~ msgstr "Добро пожаловать на наш блог!"
+
+#~ msgid "and"
+#~ msgstr "и"
+
+#~ msgid "http://wordpress.org/"
+#~ msgstr "  "
+
+#~ msgid "on"
+#~ msgstr "на"
+
+#~ msgid "at"
+#~ msgstr "в"
+
+#~ msgid "Said&#58;"
+#~ msgstr "Сказал"
+
+#~ msgid "Slide URL"
+#~ msgstr "URL слайда"
+
+#~ msgid "Enter the URL-address, which will lead slide."
+#~ msgstr "введите URL-адресс, который будет вести на слайд"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Describe slide"
+#~ msgstr "Описание слайда"
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "Email"
+#~ msgstr "Почта"
+
+#~ msgid "Website"
+#~ msgstr "Сайт"
+
+#~ msgid "Widgets not added"
+#~ msgstr "Виджеты не добавлены"
+
+#~ msgid "SUBMIT"
+#~ msgstr "ПОДАТЬ"
+
+#~ msgid "RESET"
+#~ msgstr "СБРОСИТЬ"
