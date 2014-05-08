@@ -3,9 +3,9 @@ Author: bestwebsoft
 Contributors: bestwebsoft
 Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
 Tags: orange, white, two-columns, fixed-width, custom-header, custom-slider, custom-background, threaded-comments, sticky-post, translation-ready
-Requires at least: 3.0.1
-Tested up to: 3.8.1
-Stable tag: 1.7
+Requires at least: 3.7
+Tested up to: 3.9
+Stable tag: 1.8
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Theme URI: http://bestwebsoft.com/theme/reposter
@@ -83,6 +83,10 @@ The screenshot home theme
 
 == Changelog ==
 
+= V1.8 - 06.05.2014 =
+* Update: We updated all functionality for wordpress 3.9.
+* Bugfix: We fixed a bug which breaked the word when moving to a new line.
+
 = V1.7 - 19.02.2014 =
 * Bugfix : `query_posts` is removed.
 
@@ -128,6 +132,9 @@ The screenshot home theme
 * Bugfix : Fixed Post.
 
 == Upgrade Notice ==
+
+= V1.8 =
+We updated all functionality for wordpress 3.9. We fixed a bug which breaked the word when moving to a new line.
 
 = V1.7 =
 `query_posts` is removed.

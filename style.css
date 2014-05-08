@@ -1,7 +1,7 @@
 /*
 Theme Name: Reposter
-Version: 1.7
-Tags: black, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, editor-style
+Version: 1.8
+Tags: black, white, two-columns, fixed-layout, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, editor-style
 Description: Theme for WordPress with nice effects, easy setup and good performance.
 Author: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
@@ -210,7 +210,7 @@ pre {
 	padding:12px;
 }
 #reposter_header {
-	word-break:break-all;
+	word-wrap: break-all;
 }
 #reposter_header ul > li {
 	margin-top:9px;
@@ -468,7 +468,7 @@ p {
 #reposter_article_head {
 	float:left;
 	width:560px;
-	word-break:break-all;
+	word-wrap: break-all;
 }
 #reposter_search {
 	padding-top:6px;
@@ -837,7 +837,7 @@ h1 .entry-title .slide_post_title a {
 .reposter_cont, .entry {
 	padding:28px 30px 10px 30px;
 	overflow:hidden;
-	word-break:break-all;
+	word-wrap: break-all;
 }
 .reposter-archives {
 	padding-bottom:33px;
@@ -851,7 +851,7 @@ h1 .entry-title .slide_post_title a {
 .entry-title {
 	letter-spacing:0.1px;
 	padding-bottom:7px!important;
-	word-break: break-all;
+	word-wrap: break-all;
 }
 .reposter_cont input[type="submit"] {
 	padding:10px;
