@@ -104,9 +104,8 @@
 		$.fn.sSelect = function( options ) {
 
 			return this.each( function() {
-
 				var defaults = {
-					defaultText: 'Please select',
+					defaultText: $( this ).find( 'option:first' ).text(),
 					/*set speed of dropdown*/
 					animationSpeed: 0,
 					/*set css max-height value of dropdown*/
@@ -498,10 +497,6 @@
 				$( 'textarea' ).each( function() {
 					$( this ).val( '' );
 				} );
-				$( 'select' ).each( function() {
-					$( this ).val( '' );
-					$( '.selectedTxt' ).text( 'Please select' );
-				} );
 				$( "input[ type = 'radio' ]" ).each( function() {
 					$( this ).checked = false;
 					if( $( this ).parent().hasClass( 'active' ) ) {
@@ -553,4 +548,39 @@
 			$( '.fix_width' ).after("<div class='reposter_clear'></div>" );
 		}
 	} );
+} )( jQuery );
+
+( function( $ ) {
+	$(document).ready(function() {
+		/* Check of previous selected items */
+		$( 'select' ).each(function() {
+			var index = $( this ).find( "option[selected]" ).index();
+			if (index >= 0) {
+				/*add attr selected to select*/
+				var selected_select = $( this ).find( "option[selected]" );
+				/*write text to active opt*/
+				$( this ).next().find( 'div:first' ).text( selected_select.text() );
+			}
+		});
+		/* Clear select elements */
+		$( 'input:reset' ).click( function() {
+			/* Clear original selects. */
+			$( 'select' ).each(function() {
+				/* set path */
+				var clear_select = $( this ).find( "option:first" );
+				var clear_selected_select = $( this ).find( "option[selected]" );
+				/* clear active opt */
+				$( clear_selected_select ).removeAttr( 'selected' );
+				$( clear_select ).attr( 'selected', 'selected' );
+			});
+			/* Clear custom selects. */
+			$( '.newListSelected' ).each(function() {
+				/* set path */
+				var clear_select = $( this ).find( "div:first" );
+				/* clear active opt */
+				$( clear_select ).text( $( this ).prev().find( "option:first" ).text() );
+			});
+			e.preventDefault;
+		});
+	});
 } )( jQuery );

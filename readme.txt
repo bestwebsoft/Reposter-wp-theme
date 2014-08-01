@@ -4,47 +4,17 @@ Contributors: bestwebsoft
 Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
 Tags: orange, white, two-columns, fixed-width, custom-header, custom-slider, custom-background, threaded-comments, sticky-post, translation-ready
 Requires at least: 3.7
-Tested up to: 3.9
-Stable tag: 1.8
+Tested up to: 3.9.1
+Stable tag: 1.9
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Theme URI: http://bestwebsoft.com/theme/reposter
-
-Resource name: http://css3pie.com/
-License: Licensed under the Apache License, Version 2.0 (the "License");
-Copyright: Copyright 2010 Jason Johnston
-
-Resource name: http://www.woothemes.com/flexslider/
-License: Distributed under the terms MIT licence
-Copyright: Copyright (c) 2012 WooThemes, http://www.woothemes.com/flexslider/, resource was customized for the Reposter theme
-
-The theme uses three external fonts. Below is license information for these fonts:
-
-'Open sans' font:
-Apache License v2.00
-This license can also be found at this permalink: http://www.fontsquirrel.com/license/open-sans
-Apache License Version 2.0, January 2004 http://www.apache.org/licenses/
-
-'Cuprum' font:
-SIL Open Font License, 1.1
-This license can also be found at this permalink: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
-
-'Oswald' font:
-SIL Open Font License v1.10
-This license can also be found at this permalink: http://www.fontsquirrel.com/license/oswald
-Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk)
-
-Images located in 'images' folder are created by BestWebSoft team and they are licensed under the GPL.
-
-Everything else used in this theme has been created by BestWebSoft, especially for Reposter theme and is distributed under GPL license.
 
 This is theme for every taste.
 
 == Description ==
 
-Theme for WordPress with nice effects, easy setup and good performance.
-
-If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestwebsoft.com" target="_blank">BestWebSoft</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+Reposter is a journalist theme designed to take massive amounts of content and present it to the reader in a clear and structured manner. It has a typographical hierarchy, strict grid and a clean layout that gives each element just enough room to breath. Reposter includes everything you need to bring your webblog online. This Theme is very easy to use and doesn't let anything get in the way of its functional and structured layout. If you are looking for an all-in-one solution for your new journalist blog IT review or event information, then Reposter is the theme for you. Check out the demo version of Reposter at http://bestwebsoft.com/wordpress_demo_theme/reposter/
 
 = Features =
 
@@ -56,6 +26,35 @@ If you would like to create your own language pack or update the existing one, y
 = Translation =
 
 * Russian(ru_RU)
+
+= Copyrights for resources used in this theme =
+
+* Resource name: http://css3pie.com/
+	License: Licensed under the Apache License, Version 2.0 (the "License");
+	Copyright: Copyright 2010 Jason Johnston
+
+* Resource name: http://www.woothemes.com/flexslider/
+	License: Distributed under the terms MIT licence
+	Copyright: Copyright (c) 2012 WooThemes, http://www.woothemes.com/flexslider/, resource was customized for the Reposter theme
+
+* The theme uses three external fonts. Below is license information for these fonts:
+  -	'Open sans' font:
+	Apache License v2.00
+	This license can also be found at this permalink: http://www.fontsquirrel.com/license/open-sans
+	Apache License Version 2.0, January 2004 http://www.apache.org/licenses/
+
+  -	'Cuprum' font:
+	SIL Open Font License, 1.1
+	This license can also be found at this permalink: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+  -	'Oswald' font:
+	SIL Open Font License v1.10
+	This license can also be found at this permalink: http://www.fontsquirrel.com/license/oswald
+	Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk)
+
+* Images located in 'images' folder are created by BestWebSoft team and they are licensed under the GPL.
+
+Everything else used in this theme has been created by BestWebSoft, especially for Reposter theme and is distributed under GPL license.
 
 == Installation ==
 
@@ -82,6 +81,12 @@ You may use images that size is 940x268
 The screenshot home theme
 
 == Changelog ==
+
+= V1.9 - 29.07.2014 =
+* Update: We tested theme functionality for wordpress 3.9.1. 
+* Bugfix: We fixed bugs in style.css. 
+* Bugfix: We fixed bugs in script.js.
+* New: The reposter.pot file was added.
 
 = V1.8 - 06.05.2014 =
 * Update: We updated all functionality for wordpress 3.9.
@@ -132,6 +137,9 @@ The screenshot home theme
 * Bugfix : Fixed Post.
 
 == Upgrade Notice ==
+
+= V1.9 =
+We tested theme functionality for wordpress 3.9.1. We fixed bugs in style.css and jscript. The reposter.pot file was added.
 
 = V1.8 =
 We updated all functionality for wordpress 3.9. We fixed a bug which breaked the word when moving to a new line.

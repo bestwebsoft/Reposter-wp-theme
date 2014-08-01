@@ -358,4 +358,3 @@ add_filter( 'wp_page_menu_args', 'reposter_home_page_menu_args' );
 add_action( 'add_meta_boxes', 'reposter_add_custom_box' );
 add_action( 'save_post', 'reposter_save_postdata' );
 add_action( 'save_post', 'reposter_slidecaption_save' );
-?>
