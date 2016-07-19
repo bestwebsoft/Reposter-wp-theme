@@ -1,20 +1,21 @@
 === Reposter ===
-Author: bestwebsoft
-Contributors: bestwebsoft
-Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
-Tags: orange, white, two-columns, fixed-width, custom-header, custom-slider, custom-background, threaded-comments, sticky-post, translation-ready
-Requires at least: 3.7
-Tested up to: 3.9.1
-Stable tag: 1.9
+Contributors: BestWebLayout, BestWebSoft
+Author URI: http://bestweblayout.com/
+Donate link: http://bestwebsoft.com/donate/
+Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready
+Requires at least: 4.1
+Tested up to: 4.5.3
+Stable tag: 2.0
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
-Theme URI: http://bestwebsoft.com/theme/reposter
+Reposter WordPress Theme, Copyright 2016 BestWebLayout.com
+Theme Reposter is distributed under the terms of the GNU GPL
 
 This is theme for every taste.
 
 == Description ==
 
-Reposter is a journalist theme designed to take massive amounts of content and present it to the reader in a clear and structured manner. It has a typographical hierarchy, strict grid and a clean layout that gives each element just enough room to breath. Reposter includes everything you need to bring your webblog online. This Theme is very easy to use and doesn't let anything get in the way of its functional and structured layout. If you are looking for an all-in-one solution for your new journalist blog IT review or event information, then Reposter is the theme for you. Check out the demo version of Reposter at http://bestwebsoft.com/wordpress_demo_theme/reposter/
+Reposter is a journalist theme designed to take massive amounts of content and present it to the reader in a clear and structured manner. It has a typographical hierarchy, strict grid and a clean layout that gives each element just enough room to breath. Reposter includes everything you need to bring your webblog online. This Theme is very easy to use and doesn't let anything get in the way of its functional and structured layout. If you are looking for an all-in-one solution for your new journalist blog IT review or event information, then Reposter is the theme for you. Check out the demo version of Reposter at http://wp-demo-theme.bestweblayout.com/reposter/
 
 = Features =
 
@@ -65,12 +66,12 @@ Everything else used in this theme has been created by BestWebSoft, especially f
 
 = How to activate Slider? =
 
-For activate slider go to admin panel and click on "Post",or "Page", click "Set featured image", image size must be 940x268, then check "Mark this as slide", click update.
+For activate slider go to admin panel and click on "Post", or "Page", click "Set featured image", image size must be 940x268, then check "Mark this as slide", click update.
 
 = How to change speed of changing images in the slide-show? =
 
-To change speed of changing images in the slide-show go to /js/scripts.js at line № 555
-and set value for slideshowSpeed: <input your value>
+To change speed of changing images in the slide-show go to /js/scripts.js at line № 515
+and change value for slideshowSpeed: <input your value>
 
 = What size of images can I use for slider? =
 
@@ -82,14 +83,25 @@ The screenshot home theme
 
 == Changelog ==
 
+= V2.0 - 19.07.2016 =
+* New:    The 'title-tag' theme support was added.
+* Bugfix: Fixed mismatch coding standards.
+* Bugfix: Fixed theme styles.
+* Update: Unnecessary files have been removed from "images" folder.
+* Update: Theme functionality was improved.
+* Update: Translation was updated.
+* Update: Screenshot was updated to size 1200x900.
+* Update: The theme has been tested for the compatibility with WordPress v.4.5.3.
+* Update: Theme was transferred to new WordPress account.
+
 = V1.9 - 29.07.2014 =
-* Update: We tested theme functionality for wordpress 3.9.1. 
+* Update: We tested theme functionality for WordPress 3.9.1.
 * Bugfix: We fixed bugs in style.css. 
 * Bugfix: We fixed bugs in script.js.
 * New: The reposter.pot file was added.
 
 = V1.8 - 06.05.2014 =
-* Update: We updated all functionality for wordpress 3.9.
+* Update: We updated all functionality for WordPress 3.9.
 * Bugfix: We fixed a bug which breaked the word when moving to a new line.
 
 = V1.7 - 19.02.2014 =
@@ -138,11 +150,14 @@ The screenshot home theme
 
 == Upgrade Notice ==
 
+= V2.0 =
+The 'title-tag' theme support was added. Fixed mismatch coding standards. Fixed theme styles. Unnecessary files have been removed from "images" folder. Theme functionality was improved. Translation was updated. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.3. Theme was transferred to new WordPress account.
+
 = V1.9 =
-We tested theme functionality for wordpress 3.9.1. We fixed bugs in style.css and jscript. The reposter.pot file was added.
+We tested theme functionality for WordPress 3.9.1. We fixed bugs in style.css and jscript. The reposter.pot file was added.
 
 = V1.8 =
-We updated all functionality for wordpress 3.9. We fixed a bug which breaked the word when moving to a new line.
+We updated all functionality for WordPress 3.9. We fixed a bug which breaked the word when moving to a new line.
 
 = V1.7 =
 `query_posts` is removed.

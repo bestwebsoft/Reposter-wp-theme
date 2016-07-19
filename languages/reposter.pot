@@ -1,217 +1,27 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Reposter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-29 16:56+0300\n"
+"POT-Creation-Date: 2016-07-19 18:26+0300\n"
 "PO-Revision-Date: 2014-07-29 16:57+0300\n"
 "Last-Translator: BestWebSoft <info@bestwebsoft.com>\n"
-"Language-Team: bestwebsoft <info@bestwebsoft.com>\n"
-"Language: russian\n"
+"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-KeywordsList: _e;__\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_x:1,2c;_nx:1,2,4c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n%10==1 && n%100!=11) ? 3 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: sidebar.php:11
-msgid "Archives"
-msgstr ""
-
-#: page.php:40
-#: index.php:56
-msgid "Tags: "
-msgstr ""
-
-#: page.php:46
-#: archive.php:81
-#: index.php:62
-#: search.php:60
-#: single.php:65
-msgid "[Top]"
-msgstr ""
-
-#: archive.php:27
-#, php-format
-msgid "Tag Archives: %s"
-msgstr ""
-
-#: archive.php:29
-#, php-format
-msgid "Author Archives: %s"
-msgstr ""
-
-#: archive.php:31
-#, php-format
-msgid "Category Archives: %s"
-msgstr ""
-
-#: archive.php:33
-#, php-format
-msgid "Daily Archives: <span>%s</span>"
-msgstr ""
-
-#: archive.php:35
-#, php-format
-msgid "Monthly Archives: <span>%s</span>"
-msgstr ""
-
-#: archive.php:37
-#, php-format
-msgid "Yearly Archives: <span>%s</span>"
-msgstr ""
-
-#: archive.php:56
-#: index.php:38
-#: search.php:38
-#: single.php:32
-msgid "Posted on"
-msgstr ""
-
-#: archive.php:62
-#: index.php:44
-#: search.php:44
-#: single.php:38
-msgid "in"
-msgstr ""
-
-#: archive.php:63
-#: index.php:45
-#: search.php:45
-#: single.php:39
-msgid " author: "
-msgstr ""
-
-#: archive.php:64
-#: index.php:46
-#: search.php:46
-#: single.php:40
-msgid "| Edit"
-msgstr ""
-
-#: footer.php:15
-msgid " "
-msgstr ""
-
-#: footer.php:16
-msgid "Copyright"
-msgstr ""
-
-#: footer.php:18
-msgid "Reposter theme"
-msgstr ""
-
-#: functions.php:43
-msgid "Sidebar"
-msgstr ""
-
-#: functions.php:68
-#, php-format
-msgid "Page %s"
-msgstr ""
-
-#: functions.php:100
-#: functions.php:101
-msgid "Slide settings"
-msgstr ""
-
-#: functions.php:117
-msgid "Display this "
-msgstr ""
-
-#: functions.php:117
-msgid " in slider"
-msgstr ""
-
-#: functions.php:118
-msgid "Use image by size 940x268. If your image size is bigger than 940x268, you need upload image again and WordPress will crop your image for needed size."
-msgstr ""
-
-#: functions.php:167
-msgid "You are here: "
-msgstr ""
-
-#: functions.php:169
-#: functions.php:224
-msgid "Home"
-msgstr ""
-
-#: functions.php:209
-#: search.php:28
-#: search.php:68
-#, php-format
-msgid "Search Results for: %s"
-msgstr ""
-
-#: functions.php:213
-msgid "Author archives"
-msgstr ""
-
-#: functions.php:220
-msgid "Page not found"
-msgstr ""
-
-#: functions.php:235
-msgid "Pingback:"
-msgstr ""
-
-#: functions.php:235
-#: functions.php:270
-msgid "Edit"
-msgstr ""
-
-#: functions.php:252
-#, php-format
-msgid "%1$s on %2$s <span class=\"says\">said:</span>"
-msgstr ""
-
-#: functions.php:258
-#, php-format
-msgid "%1$s at %2$s"
-msgstr ""
-
-#: functions.php:266
-msgid "Your comment is awaiting moderation."
-msgstr ""
-
-#: functions.php:272
-msgid "Reply <span>&darr;</span>"
-msgstr ""
-
-#: searchform.php:3
-msgid "Enter search keyword"
-msgstr ""
-
-#: searchform.php:4
-msgid "SEARCH"
-msgstr ""
-
-#: search.php:73
-msgid "Nothing was found for your request!"
-msgstr ""
-
-#: comments.php:9
-msgid "This post is password protected. Enter the password to view any comments."
-msgstr ""
-
-#: comments.php:23
-msgid "&larr; Older Comments"
-msgstr ""
-
-#: comments.php:24
-msgid "Newer Comments &rarr;"
-msgstr ""
-
-#: comments.php:31
-msgid "Comments are closed."
-msgstr ""
-
 #: 404.php:18
+#, fuzzy
 msgid "Error 404"
-msgstr ""
+msgstr "Ошибка 404"
 
 #: 404.php:19
 msgid "The page you have requested has flown the coop."
@@ -237,10 +47,244 @@ msgstr ""
 msgid "You like 404 pages"
 msgstr ""
 
-#: single.php:46
-msgid "&larr; Previous"
+#: archive.php:27
+#, fuzzy, php-format
+msgid "Tag Archives: %s"
+msgstr "Архив тега: %s"
+
+#: archive.php:29
+#, fuzzy, php-format
+msgid "Author Archives: %s"
+msgstr "Архив автора: %s"
+
+#: archive.php:31
+#, fuzzy, php-format
+msgid "Category Archives: %s"
+msgstr "Архив категорий:  %s"
+
+#: archive.php:33
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
 msgstr ""
 
-#: single.php:46
-msgid "Next &rarr;"
+#: archive.php:35
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
 msgstr ""
+
+#: archive.php:35
+#, fuzzy
+msgctxt "monthly archives date format"
+msgid " F Y"
+msgstr "М Г"
+
+#: archive.php:37
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:37
+#, fuzzy
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Г"
+
+#: archive.php:54 index.php:39 search.php:39 single.php:33
+#, fuzzy
+msgid "Posted on"
+msgstr "Опубликовал"
+
+#: archive.php:59 index.php:44 search.php:44 single.php:36
+msgid "in"
+msgstr ""
+
+#: archive.php:62 index.php:47 search.php:47 single.php:39
+#, fuzzy
+msgid " author: "
+msgstr "Автор:"
+
+#: archive.php:64 index.php:49 search.php:49 single.php:41
+#, fuzzy
+msgid "| Edit"
+msgstr "(Редактировать)"
+
+#: archive.php:81 index.php:65 page.php:44 search.php:64 single.php:71
+#, fuzzy
+msgid "[Top]"
+msgstr "[Наверх]"
+
+#: comments.php:9
+#, fuzzy
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Эта публикация защищена паролем. Введите пароль для просмотра комментариев."
+
+#: comments.php:15
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: comments.php:23
+#, fuzzy
+msgid "&larr; Older Comments"
+msgstr "&larr; Старые комментарии"
+
+#: comments.php:24
+#, fuzzy
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+#: comments.php:31
+#, fuzzy
+msgid "Comments are closed."
+msgstr "Комментарии запрещены"
+
+#: footer.php:15
+#, fuzzy
+msgid "Powered by"
+msgstr "При поддержке"
+
+#: footer.php:19
+msgid "and"
+msgstr ""
+
+#: functions.php:48
+#, fuzzy
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#: functions.php:65
+#, fuzzy
+msgid "Choose file..."
+msgstr "Выберите файл..."
+
+#: functions.php:66
+#, fuzzy
+msgid "No file chosen..."
+msgstr "Файл не выбран"
+
+#: functions.php:67
+msgid "You forgot to upload an image!"
+msgstr ""
+
+#: functions.php:89 functions.php:90
+#, fuzzy
+msgid "Slide settings"
+msgstr "Настройки слайда сохранены."
+
+#: functions.php:107
+#, fuzzy
+msgid "Display this "
+msgstr "Отображать"
+
+#: functions.php:107
+#, fuzzy
+msgid " in slider"
+msgstr "В стайдер"
+
+#: functions.php:108
+msgid "Use image by size 940x268. If your image size is bigger than 940x268, you need upload image again and WordPress will crop your image for needed size."
+msgstr ""
+
+#: functions.php:145
+msgid "You are here: "
+msgstr ""
+
+#: functions.php:147 functions.php:191
+#, fuzzy
+msgid "Home"
+msgstr "Домашняя"
+
+#: functions.php:180 search.php:28 search.php:72
+#, fuzzy, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: functions.php:183
+#, fuzzy
+msgid "Author archives"
+msgstr "Архив автора"
+
+#: functions.php:188
+#, fuzzy
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: functions.php:203
+#, fuzzy
+msgid "Pingback:"
+msgstr "Ответ:"
+
+#: functions.php:205 functions.php:245
+#, fuzzy
+msgid "Edit"
+msgstr "Редактировать"
+
+#: functions.php:225
+#, php-format
+msgid "%1$s on %2$s said:"
+msgstr ""
+
+#: functions.php:231
+#, fuzzy, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s, %2$s "
+
+#: functions.php:240
+#, fuzzy
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш коментарий ждет одобрения"
+
+#: functions.php:248
+#, fuzzy
+msgid "Reply"
+msgstr "Ответить"
+
+#: index.php:60 page.php:39
+#, fuzzy
+msgid "Tags: "
+msgstr "Метки: "
+
+#: search.php:77
+msgid "Nothing was found for your request!"
+msgstr ""
+
+#: searchform.php:3
+#, fuzzy
+msgid "Enter search keyword"
+msgstr "Введите искомое слово"
+
+#: searchform.php:4
+#, fuzzy
+msgid "SEARCH"
+msgstr "поиск"
+
+#: sidebar.php:13
+#, fuzzy
+msgid "Archives"
+msgstr "Архивы:"
+
+#: single.php:49
+#, fuzzy
+msgid "&larr; Previous"
+msgstr "&larr; Предыдущий"
+
+#: single.php:51
+#, fuzzy
+msgid "Next &rarr;"
+msgstr "Следующий &rarr;"
+
+#: single.php:57
+#, fuzzy
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: single.php:58
+#, fuzzy
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"

@@ -1,19 +1,19 @@
 <?php
 /**
-* The template for displaying the 404 page.
-*
-*/
+ * The template for displaying the 404 page.
+ *
+ */
 get_header(); ?>
 	<div id='reposter_width'>
 		<div id='reposter_main' class='wrapper'>
-			<?php if( get_header_image() != '' ) { ?>
+			<?php if ( get_header_image() != '' ) { ?>
 				<div id='reposter_header-image'>
 					<img src='<?php header_image(); ?>' alt='' />
 				</div>
 			<?php } ?>
 			<div id='reposter_main_content'>
 				<section id='reposter_left-side'>
-					<article id='post-<?php the_ID(); ?>' class='post' ?>
+					<article id='post-<?php the_ID(); ?>' class='post'>
 						<div class='reposter_cont'>
 							<h1><?php _e( 'Error 404', 'reposter' ); ?></h1>
 							<h2><?php _e( 'The page you have requested has flown the coop.', 'reposter' ); ?></h2>
@@ -33,4 +33,4 @@ get_header(); ?>
 			<div class='reposter_clear'></div>
 		</div><!--end #reposter_main-->
 	</div><!--end #reposter_width-->
-<?php get_footer(); ?>
+<?php get_footer();

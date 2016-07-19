@@ -2,208 +2,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reposter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-18 11:03+0300\n"
-"PO-Revision-Date: 2013-12-18 11:04+0300\n"
+"POT-Creation-Date: 2016-07-19 18:28+0300\n"
+"PO-Revision-Date: 2016-07-19 18:51+0300\n"
 "Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
-"Language-Team: bestwebsoft <info@bestwebsoft.com>\n"
-"Language: russian\n"
+"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-KeywordsList: _e;__\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_x:1,2c;_nx:1,2,4c;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-Basepath: ..\n"
-"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n%10==1 && n%100!=11) ? 3 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
-
-#: single.php:32
-#: archive.php:59
-#: search.php:38
-#: index.php:42
-msgid "Posted on"
-msgstr "Опубликовано"
-
-#: single.php:38
-#: archive.php:65
-#: search.php:44
-#: index.php:48
-msgid "in"
-msgstr "в"
-
-#: single.php:39
-#: archive.php:66
-#: search.php:45
-#: index.php:49
-msgid " author: "
-msgstr " автор: "
-
-#: single.php:40
-#: archive.php:67
-#: search.php:46
-#: index.php:50
-msgid "| Edit"
-msgstr "| Редактировать"
-
-#: single.php:46
-msgid "&larr; Previous"
-msgstr "Назад"
-
-#: single.php:46
-msgid "Next &rarr;"
-msgstr "Вперед"
-
-#: single.php:65
-#: archive.php:84
-#: page.php:51
-#: search.php:60
-#: index.php:66
-msgid "[Top]"
-msgstr "[Вверх]"
-
-#: searchform.php:3
-msgid "Enter search keyword"
-msgstr "Введите поисковой запрос"
-
-#: searchform.php:4
-msgid "SEARCH"
-msgstr "ПОИСК"
-
-#: functions.php:43
-msgid "Sidebar"
-msgstr "Сайд бар"
-
-#: functions.php:68
-#, php-format
-msgid "Page %s"
-msgstr "Страница %s"
-
-#: functions.php:100
-#: functions.php:101
-msgid "Slide settings"
-msgstr "Настройки слайдов "
-
-#: functions.php:117
-msgid "Display this "
-msgstr "Отображать "
-
-#: functions.php:117
-msgid " in slider"
-msgstr " в слайдере"
-
-#: functions.php:118
-msgid "Use image by size 940x268. If your image size is bigger than 940x268, you need upload image again and WordPress will crop your image for needed size."
-msgstr "Используйте изображение размером 940х268. Если размер изображения больше, чем 940x268, то вам нужно загрузить изображение снова и оно будет обрезано до необходимого размера."
-
-#: functions.php:167
-msgid "You are here: "
-msgstr "Вы находитесь здесь: "
-
-#: functions.php:169
-#: functions.php:224
-msgid "Home"
-msgstr "Главная"
-
-#: functions.php:209
-#: search.php:28
-#: search.php:68
-#, php-format
-msgid "Search Results for: %s"
-msgstr "Результаты поиска для: %s"
-
-#: functions.php:213
-msgid "Author archives"
-msgstr "Архивы автора"
-
-#: functions.php:220
-msgid "Page not found"
-msgstr "Страница не найдена"
-
-#: functions.php:235
-msgid "Pingback:"
-msgstr "Пингбэк: "
-
-#: functions.php:235
-#: functions.php:270
-msgid "Edit"
-msgstr "| Редактировать"
-
-#: functions.php:252
-#, php-format
-msgid "%1$s on %2$s <span class=\"says\">said:</span>"
-msgstr "%1$s в  %2$s <span class=\"says\">сказал:</span>"
-
-#: functions.php:258
-#, php-format
-msgid "%1$s at %2$s"
-msgstr "%1$s в %2$s"
-
-#: functions.php:266
-msgid "Your comment is awaiting moderation."
-msgstr "Ваш коментарий ожидает проверки модератором"
-
-#: functions.php:272
-msgid "Reply <span>&darr;</span>"
-msgstr "Ответ <span>&darr;</span>"
-
-#: archive.php:31
-#, php-format
-msgid "Tag Archives: %s"
-msgstr "Архивы тегов: %s"
-
-#: archive.php:33
-#, php-format
-msgid "Author Archives: %s"
-msgstr "Архивы автора: %s"
-
-#: archive.php:35
-#, php-format
-msgid "Category Archives: %s"
-msgstr "Архивы Категорий: %s"
-
-#: archive.php:37
-#, php-format
-msgid "Daily Archives: <span>%s</span>"
-msgstr "Ежедневные архивы: <span>%s</span>"
-
-#: archive.php:39
-#, php-format
-msgid "Monthly Archives: <span>%s</span>"
-msgstr "Архивы за месяц: <span>%s</span>"
-
-#: archive.php:41
-#, php-format
-msgid "Yearly Archives: <span>%s</span>"
-msgstr "Ежегодные архивы: <span>%s</span>"
-
-#: comments.php:9
-msgid "This post is password protected. Enter the password to view any comments."
-msgstr "Эта запись защищённая паролем. Введите пароль для просмотра комментариев."
-
-#: comments.php:23
-msgid "&larr; Older Comments"
-msgstr "&larr; Предыдущие коментарии"
-
-#: comments.php:24
-msgid "Newer Comments &rarr;"
-msgstr "Следующие коментарии &rarr;"
-
-#: comments.php:31
-msgid "Comments are closed."
-msgstr "Коментарии запрещены."
-
-#: page.php:45
-#: index.php:60
-msgid "Tags: "
-msgstr "Метки: "
-
-#: search.php:73
-msgid "Nothing was found for your request!"
-msgstr "Ничего не было найдено по вашему запросу!"
-
-#: sidebar.php:11
-msgid "Archives"
-msgstr "Архивы"
 
 #: 404.php:18
 msgid "Error 404"
@@ -211,7 +25,7 @@ msgstr "Ошибка 404"
 
 #: 404.php:19
 msgid "The page you have requested has flown the coop."
-msgstr "Запрошенная вами страница не найдена"
+msgstr "Запрошенная вами страница не найдена."
 
 #: 404.php:20
 msgid "Perhaps you are here because:"
@@ -223,7 +37,7 @@ msgstr "Страница была перемещена"
 
 #: 404.php:23
 msgid "The page no longer exists"
-msgstr "Страница не существует больше"
+msgstr "Страница больше не существует"
 
 #: 404.php:24
 msgid "You were looking for your puppy and got lost"
@@ -231,19 +45,238 @@ msgstr "Возможно вы заблудились или ввели неве�
 
 #: 404.php:25
 msgid "You like 404 pages"
-msgstr "Возмонжо вам нравится 404 страница"
+msgstr "Возможно вам нравятся 404 страницы"
 
-#: footer.php:15
-msgid " "
+#: archive.php:27
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Архивы метки: %s"
+
+#: archive.php:29
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Архивы автора: %s"
+
+#: archive.php:31
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Архивы Категории: %s"
+
+#: archive.php:33
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Ежедневные архивы: <span>%s</span>"
+
+#: archive.php:35
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Архивы за месяц: <span>%s</span>"
+
+#: archive.php:35
+msgctxt "monthly archives date format"
+msgid " F Y"
 msgstr ""
 
-#: footer.php:16
-msgid "Copyright"
-msgstr "Авторские права"
+#: archive.php:37
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Ежегодные архивы: <span>%s</span>"
 
-#: footer.php:18
-msgid "Reposter theme"
-msgstr "Reposter тема"
+#: archive.php:37
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:54 index.php:39 search.php:39 single.php:33
+msgid "Posted on"
+msgstr "Опубликовано"
+
+#: archive.php:59 index.php:44 search.php:44 single.php:36
+msgid "in"
+msgstr "в"
+
+#: archive.php:62 index.php:47 search.php:47 single.php:39
+msgid " author: "
+msgstr " автор: "
+
+#: archive.php:64 index.php:49 search.php:49 single.php:41
+msgid "| Edit"
+msgstr "| Редактировать"
+
+#: archive.php:81 index.php:65 page.php:44 search.php:64 single.php:71
+msgid "[Top]"
+msgstr "[Вверх]"
+
+#: comments.php:9
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Эта запись защищена паролем. Введите пароль для просмотра комментариев."
+
+#: comments.php:15
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий к &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария к &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев к &ldquo;%2$s&rdquo;"
+
+#: comments.php:23
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие коментарии"
+
+#: comments.php:24
+msgid "Newer Comments &rarr;"
+msgstr "Следующие коментарии &rarr;"
+
+#: comments.php:31
+msgid "Comments are closed."
+msgstr "Коментирование закрыто."
+
+#: footer.php:15
+msgid "Powered by"
+msgstr "При поддержке"
+
+#: footer.php:19
+msgid "and"
+msgstr "и"
+
+#: functions.php:48
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#: functions.php:65
+msgid "Choose file..."
+msgstr "Выберите файл..."
+
+#: functions.php:66
+msgid "No file chosen..."
+msgstr "Файл не выбран..."
+
+#: functions.php:67
+msgid "You forgot to upload an image!"
+msgstr "Вы забыли загрузить изображение!"
+
+#: functions.php:89 functions.php:90
+msgid "Slide settings"
+msgstr "Настройки слайдов"
+
+#: functions.php:107
+msgid "Display this "
+msgstr "Отображать "
+
+#: functions.php:107
+msgid " in slider"
+msgstr " в слайдере"
+
+#: functions.php:108
+msgid ""
+"Use image by size 940x268. If your image size is bigger than 940x268, you "
+"need upload image again and WordPress will crop your image for needed size."
+msgstr ""
+"Используйте изображение размером 940х268. Если размер изображения больше, "
+"чем 940x268, то вам нужно загрузить изображение снова и оно будет обрезано "
+"до необходимого размера."
+
+#: functions.php:145
+msgid "You are here: "
+msgstr "Вы находитесь здесь: "
+
+#: functions.php:147 functions.php:191
+msgid "Home"
+msgstr "Главная"
+
+#: functions.php:180 search.php:28 search.php:72
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: functions.php:183
+msgid "Author archives"
+msgstr "Архивы автора"
+
+#: functions.php:188
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: functions.php:203
+msgid "Pingback:"
+msgstr "Уведомление:"
+
+#: functions.php:205 functions.php:245
+msgid "Edit"
+msgstr "| Редактировать"
+
+#: functions.php:225
+#, php-format
+msgid "%1$s on %2$s said:"
+msgstr "%1$s в %2$s сказал:"
+
+#: functions.php:231
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: functions.php:240
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: functions.php:248
+msgid "Reply"
+msgstr "Ответить"
+
+#: index.php:60 page.php:39
+msgid "Tags: "
+msgstr "Метки: "
+
+#: search.php:77
+msgid "Nothing was found for your request!"
+msgstr "Ничего не было найдено по вашему запросу!"
+
+#: searchform.php:3
+msgid "Enter search keyword"
+msgstr "Введите поисковый запрос"
+
+#: searchform.php:4
+msgid "SEARCH"
+msgstr "ПОИСК"
+
+#: sidebar.php:13
+msgid "Archives"
+msgstr "Архивы"
+
+#: single.php:49
+msgid "&larr; Previous"
+msgstr "&larr; Назад"
+
+#: single.php:51
+msgid "Next &rarr;"
+msgstr "Вперед &rarr;"
+
+#: single.php:57
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: single.php:58
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#~ msgid "Page %s"
+#~ msgstr "Страница %s"
+
+#~ msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+#~ msgstr "%1$s в  %2$s <span class=\"says\">сказал:</span>"
+
+#~ msgid "Reply <span>&darr;</span>"
+#~ msgstr "Ответ <span>&darr;</span>"
+
+#~ msgid "Copyright"
+#~ msgstr "Авторские права"
+
+#~ msgid "Reposter theme"
+#~ msgstr "Reposter тема"
 
 #~ msgid "Read more"
 #~ msgstr "Читать далее"
@@ -287,9 +320,6 @@ msgstr "Reposter тема"
 #~ msgid "this description "
 #~ msgstr "это описание "
 
-#~ msgid "Powered by "
-#~ msgstr "Создано"
-
 #~ msgid "Mark this as slide, use image that size is 940x268"
 #~ msgstr "Пометить как слайд, используйте изображения размера 940x268"
 
@@ -330,9 +360,6 @@ msgstr "Reposter тема"
 
 #~ msgid "Welcome to our blog!"
 #~ msgstr "Добро пожаловать на наш блог!"
-
-#~ msgid "and"
-#~ msgstr "и"
 
 #~ msgid "http://wordpress.org/"
 #~ msgstr "  "
