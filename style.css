@@ -4,7 +4,7 @@ Theme URI: http://bestweblayout.com/products/reposter/
 Author: BestWebLayout
 Author URI: http://bestweblayout.com/
 Description: Reposter is a journalist theme designed to take massive amounts of content and present it to the reader in a clear and structured manner. It has a typographical hierarchy, strict grid and a clean layout that gives each element just enough room to breath. Reposter includes everything you need to bring your webblog online. This Theme is very easy to use and doesn't let anything get in the way of its functional and structured layout. If you are looking for an all-in-one solution for your new journalist blog IT review or event information, then Reposter is the theme for you. Check out the demo version of Reposter at http://wp-demo-theme.bestweblayout.com/reposter/
-Version: 2.0
+Version: 2.1
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready
@@ -604,6 +604,10 @@ p {
 
 .search-box input {
 	float: left;
+}
+
+.searchform {
+	margin: 0;
 }
 
 .searchform input {

@@ -13,9 +13,6 @@ get_header() ?>
 		<?php } ?>
 		<div id='reposter_title'>
 			<div id='reposter_article_head'>
-				<h1>
-					<a href='<?php the_permalink(); ?>'><?php the_title(); ?></a>
-				</h1>
 				<p><?php reposter_the_breadcrumb(); ?></p>
 			</div><!--end #reposter_article_head-->
 			<div id='reposter_search' class='reposter_widget_search'><?php get_search_form(); ?></div>
@@ -34,12 +31,6 @@ get_header() ?>
 							the_content();
 							comments_template( '', true ); ?>
 						</div><!--end .reposter_cont-->
-						<!--tags-->
-						<?php if ( has_tag() ) { ?>
-							<div class='tags'><?php the_tags( __( 'Tags: ', 'reposter' ) ); ?></div><!--styling tags-->
-						<?php } else { ?><!--else tags block empty-->
-							<div></div>
-						<?php } ?>
 						<div class='reposter_back-top'><!--scrolling top-->
 							<span class='reposter_orange'><a href='javascript:scroll( 0,0 );'><?php _e( '[Top]', 'reposter' ); ?></a></span>
 						</div>

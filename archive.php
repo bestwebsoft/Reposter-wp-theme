@@ -22,8 +22,8 @@ get_header(); ?>
 			<section id='reposter_left-side'>
 				<article id='post-<?php the_ID(); ?>' <?php post_class(); ?>>
 					<div class='reposter_cont reposter-archives'>
-						<?php if ( have_posts() ) : ?>
-							<?php if ( is_tag() ) : ?><!-- filter posts by tags -->
+						<?php if ( have_posts() ) :
+							if ( is_tag() ) : ?><!-- filter posts by tags -->
 								<h4 class='reposter_cat'><?php printf( __( 'Tag Archives: %s', 'reposter' ), "<span class='reposter_orange'>" . single_tag_title( '', false ) . '</span>' ); ?></h4>
 							<?php elseif ( is_author() ) : ?><!--filter posts by author-->
 								<h4 class='reposter_cat'><?php printf( __( 'Author Archives: %s', 'reposter' ), "<span class='reposter_orange'>" . get_the_author_meta( 'user_nicename', $user_ID ) . '</span>' ); ?></h4>
@@ -32,9 +32,9 @@ get_header(); ?>
 							<?php elseif ( is_day() ) : ?><!-- filter posts by archives -->
 								<h4 class='reposter_cat'><?php printf( __( 'Daily Archives: <span>%s</span>', 'reposter' ), "<span class='reposter_orange'>" . get_the_date() . '</span>' ); ?></h4>
 							<?php elseif ( is_month() ) : ?>
-								<h4 class='reposter_cat'><?php printf( __( 'Monthly Archives: <span>%s</span>', 'reposter' ), "<span class='reposter_orange'>" . get_the_date( _x( ' F Y', 'monthly archives date format', 'reposter' ) ) . '</span>' ); ?></h4>
+								<h4 class='reposter_cat'><?php printf( __( 'Monthly Archives: <span>%s</span>', 'reposter' ), "<span class='reposter_orange'>" . get_the_date( 'F Y' ) . '</span>' ); ?></h4>
 							<?php elseif ( is_year() ) : ?>
-								<h4 class='reposter_cat'><?php printf( __( 'Yearly Archives: <span>%s</span>', 'reposter' ), "<span class='reposter_orange'>" . get_the_date( _x( 'Y', 'yearly archives date format', 'reposter' ) ) . '</span>' ); ?></h4>
+								<h4 class='reposter_cat'><?php printf( __( 'Yearly Archives: <span>%s</span>', 'reposter' ), "<span class='reposter_orange'>" . get_the_date( 'Y' ) . '</span>' ); ?></h4>
 							<?php endif;
 						endif; ?>
 					</div><!--end .reposter_cont-->

@@ -27,7 +27,7 @@ get_header() ?>
 							<article id='post-<?php the_ID(); ?>' <?php post_class(); ?>>
 								<div class='reposter_cont'>
 									<p class='entry-title'>
-										<a href='<?php the_permalink(); ?>'><?php the_title(); ?></a>
+										<?php the_title(); ?>
 									</p>
 									<div class='entry-meta'>
 										<?php _e( 'Posted on', 'reposter' ) ?>
@@ -64,8 +64,6 @@ get_header() ?>
 								<!--posts navigation-->
 								<?php if ( has_tag() ) : ?>
 									<div class='tags'><?php the_tags(); ?></div>
-								<?php else : ?>
-									<div></div><!-- empty block -->
 								<?php endif; ?>
 								<div class='reposter_back-top'>
 									<span class='reposter_orange'><a href='javascript:scroll( 0,0 );'><?php _e( '[Top]', 'reposter' ); ?></a></span>

@@ -13,7 +13,6 @@ get_header() ?>
 		<?php } ?>
 		<div id='reposter_title'>
 			<div id='reposter_article_head'>
-				<h1><a href='<?php the_permalink(); ?>'><?php the_title(); ?></a></h1>
 				<p><?php reposter_the_breadcrumb(); ?></p>
 			</div>
 			<div id='reposter_search' class='reposter_widget_search'><?php get_search_form(); ?></div>
